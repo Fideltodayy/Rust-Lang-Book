@@ -1,0 +1,35 @@
+# Rust-specific ignores
+*target
+# Dependency directories
+**/node_modules/
+**/vendor/
+
+# Compiled sources
+**/*.com
+**/*.class
+**/*.dll
+**/*.exe
+**/*.o
+**/*.so
+
+# Logs and databases
+**/*.log
+**/*.sqlite
+
+# OS generated files
+**/.DS_Store
+**/Thumbs.db
+
+# IDE-specific files
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+
+# Temporary files
+**/*~
+**/*.tmp
+**/*.bak
+
+# Cargo lock files (optional, depending on your preference)
+**/Cargo.lock
